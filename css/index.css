@@ -63,6 +63,8 @@ body {
     line-height: 1.5;
 }
 
+
+
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
 }
@@ -91,7 +93,17 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
+
+
+.social-media-iconss {
+    display: flex;
+    min-height: 30px;
+    background-color: green;
+}
+
+
 
 /* spacers */
 .spacer {
