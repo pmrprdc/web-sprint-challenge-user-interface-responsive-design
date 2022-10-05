@@ -56,11 +56,13 @@ html {
     min-width: 428px;
     width: 100%;
     font-size: 62.5%;
+    margin: 0 auto;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    
 }
 
 
