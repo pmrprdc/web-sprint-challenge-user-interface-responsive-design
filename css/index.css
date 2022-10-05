@@ -57,6 +57,7 @@ html {
     width: 100%;
     font-size: 62.5%;
     margin: 0 auto;
+    background-color: black;
 }
 
 body {
@@ -109,6 +110,16 @@ header div {
     opacity: 80%;
 }
 
+nav div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+nav div a {
+    color: white;
+}
 
 .social-media-iconss {
     display: flex;
