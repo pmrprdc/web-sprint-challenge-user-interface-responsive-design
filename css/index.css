@@ -271,6 +271,11 @@ nav div i {
 
 .contacts {
     width: 25%;
+    
+}
+
+#phone, #email {
+    color: white;
 }
 
 /* footer section */
@@ -281,6 +286,7 @@ footer {
     font-size: 3rem;
     color: white;
     border-top: 1px solid lightgrey;
+    text-align: end;
 }
 
 .email-sign-up{
@@ -316,6 +322,9 @@ footer nav {
     flex-flow: row nowrap;
     justify-content: space-between;
     gap: 3rem;
+}
+footer p {
+    font-size: 1.8rem;
 }
 
 
@@ -365,9 +374,12 @@ footer nav {
     .contacts {
         width: 100%;
         padding-bottom: 2.5vh;
+        text-decoration: none;
+        
+        
     }
-
-    /* footer section */
+    
+    section */
     footer {
         height: auto;
         padding-top: 2.5vh;
