@@ -336,7 +336,7 @@ footer p {
 
 
 /* mobile media query */
-@media (max-width: 428px) {
+@media only screen and (max-width: 828px) {
     /* header section */
     
 
@@ -367,6 +367,8 @@ footer p {
     
     .info {
         flex-wrap: wrap;
+        flex-direction: column;
+        
     }
     
     .address {
@@ -386,7 +388,7 @@ footer p {
         
     }
     
-    section */
+    section *
     footer {
         height: auto;
         padding-top: 2.5vh;
