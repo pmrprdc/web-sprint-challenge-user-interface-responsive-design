@@ -55,6 +55,8 @@ html {
     max-width: 1920px;
     min-width: 428px;
     font-size: 62.5%;
+    margin: 0 auto;
+    background-color: black;
 }
 
 body {
