@@ -394,4 +394,23 @@ footer p {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+
+    .nav {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .email-sign-up-main {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+       
+
+    }
+    .email-sign-up button {
+        width: 25rem;
+        
+       
+    }
 }
