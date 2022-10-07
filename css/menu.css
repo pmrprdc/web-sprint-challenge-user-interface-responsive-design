@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    color: white;
 }
 
 h2 {
@@ -100,22 +101,48 @@ header {
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 3px solid pink;
-    background-color: black;
-    opacity: 60%;
+    background: hsla(0, 0%, 0%, 0.641)
+   
+    
 } 
 
+.social-media-icons-2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 4rem;
+    gap: 5rem;
+}
 nav {
     border: 2px solid red;
+    width: 100%;
 }
 
 nav div {
-    border: 2px solid green;
+    
+    border: 2px solid blueviolet;
+    color: white;
+
 }
 
  h1  {
     color: white;
+    
 }
+.menu-buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu-buttons a {
+    color: white;
+}
+
 
 /* spacer */
 .spacer {
@@ -139,7 +166,10 @@ nav div {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
 }
+
+
 
 /* footer section */
 footer {
