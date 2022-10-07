@@ -172,8 +172,8 @@ nav div {
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
     background-color: rgb(0, 4, 17);
-    background-size: cover;
-    background-position: center;
+    background-size: 200%;
+    background-position: top center;
     background-repeat: no-repeat;
     color: white;
     display: flex;
@@ -181,6 +181,12 @@ nav div {
     align-items: center;;
 }
 
+.menu-wrapper {
+    width: 100%;
+    height: auto;
+    border: 1rem solid slategray;
+    background: hsla(0, 0%, 0%, 0.641)
+}
 
 
 
