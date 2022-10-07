@@ -286,7 +286,7 @@ section.gallery {
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
+  
     padding-top: 2.5vh;
     font-size: 3rem;
     color: white;
@@ -390,14 +390,27 @@ footer p {
     
     section *
     footer {
-        height: auto;
+        display: flex;
+        height: 100%; 
         padding-top: 2.5vh;
         font-size: 2rem;
+        flex-direction: column;
+        text-align: center;
+        
+
     }
 
-    .nav {
+    
+
+    footer nav {
         width: 90%;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email-sign-up  {
+        width: 80%;
     }
 
     .email-sign-up-main {
@@ -413,4 +426,21 @@ footer p {
         
        
     }
+
+    .footer-nav-options {
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+        
+    }
+
+    footer p {
+        padding: 0;
+        text-align: center;
+    }
+
+
+
+ 
 }
