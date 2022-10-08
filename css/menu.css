@@ -298,7 +298,57 @@ footer p {
     color: white;
 }
 
+@media (max-width: 675px) {
 
+
+    footer {
+        width: 100%;
+        height: auto;
+        padding-top: 2.5vh;
+        font-size: 2rem;
+    }
+    footer nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .email-sign-up-main {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .email-sign-up {
+        flex-direction: column;
+    }
+    .email-sign-up input{
+        width: 100%;
+    }
+    .email-sign-up button {
+        width: 100%;
+    }
+
+    footer .menu-nav-links {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1rem;
+    }
+    footer div {
+        text-align: center;
+    }
+
+    footer h3 {
+        font-size: 2rem;
+    }
+
+
+    footer div p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+
+}
 
 
 
@@ -357,12 +407,18 @@ footer p {
         text-align: center;
         padding: 1.5rem;
         border-bottom: 0.5rem solid black;
+        margin-bottom: 2rem;
         
     }
 
     .menu-item p {
         font-size: 2rem;
         padding: 1rem;
+    }
+
+    .desserts .menu-item:last-child  {
+        border: none;
+        
     }
 
    
