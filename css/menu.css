@@ -119,12 +119,12 @@ header {
     font-size: 4rem;
     gap: 5rem;
 }
-nav {
+header nav {
     border: 2px solid red;
     width: 100%;
 }
 
-nav div {
+header nav div {
     
     border: 2px solid blueviolet;
     color: white;
@@ -233,21 +233,28 @@ footer {
     border-top: 1px solid lightgrey;
     text-align: end;
 }
-
-.email-sign-up{
+footer nav {
     display: flex;
-    flex-flow: column nowrap;
-    width: 25%;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1rem solid sandybrown;
+
 }
-
-
 .email-sign-up-main {
+    max-width: 30%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
+    align-self: start;
+    border: 1rem solid blanchedalmond;
+    
+
 }
+
+
+
+
 .email-sign-up button {
     width: 14rem;
     height: 3rem;
@@ -257,47 +264,13 @@ footer {
     width: 25rem;
 }
 
-footer nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
 
-.footer-nav-options {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    gap: 3rem;
-}
+
 footer p {
     font-size: 1.8rem;
     padding-right: 5rem;
 }
 
-footer {
-    width: 100%;
-  
-    padding-top: 2.5vh;
-    font-size: 3rem;
-    color: white;
-    border-top: 1px solid lightgrey;
-    text-align: end;
-}
-
-.email-sign-up{
-    display: flex;
-    flex-flow: column nowrap;
-    width: 25%;
-    text-align: center;
-}
-
-
-.email-sign-up-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
 .email-sign-up button {
     width: 14rem;
     height: 3rem;
@@ -307,22 +280,6 @@ footer {
     width: 25rem;
 }
 
-footer nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-.footer-nav-options {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    gap: 3rem;
-}
-footer p {
-    font-size: 1.8rem;
-    padding-right: 5rem;
-}
 
 
 
