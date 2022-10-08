@@ -287,6 +287,19 @@ footer p {
     width:80%;
 }
 
+.menu-nav-links {
+    border: 1rem solid seagreen;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.menu-nav-links a {
+    color: white;
+}
+
 
 
 
