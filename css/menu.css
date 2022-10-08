@@ -78,15 +78,15 @@ h2 {
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 h4 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 p, a {
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 /* header section */
@@ -135,22 +135,7 @@ nav div {
     color: white;
     
 }
-.menu-buttons {
-    display: flex;
-    justify-content: space-around;
 
-}
-
-.menu-buttons a {
-    color: white;
-}
-
-
-.menu-item div {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
 
 
 /* spacer */
@@ -178,14 +163,39 @@ nav div {
     color: white;
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;;
+    
+    
+    
+
 }
 
+
+.menu-buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu-buttons a {
+    color: white;
+}
+.menu-item {
+    padding: 1.5rem 1.5rem 1.5rem 0rem;
+}
+
+.menu-item div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
 .menu-wrapper {
     width: 100%;
     height: auto;
     border: 1rem solid slategray;
-    background: hsla(0, 0%, 0%, 0.641)
+    background: hsla(0, 0%, 0%, 0.641);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -194,7 +204,7 @@ nav div {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    width: 80%;
+    width: 100%;
     border: 5px solid salmon;
     margin: 0 auto;
     justify-content: flex-start;
@@ -203,8 +213,9 @@ nav div {
     gap: 10rem;
 }
 .menu-section {
-    width: 50rem;
-    min-height: 100rem;
+   
+    width: 60rem;
+    min-height: 55rem;
     display: flex;
     flex-direction: column;
     flex-wrap:nowrap;
@@ -215,11 +226,104 @@ nav div {
 /* footer section */
 footer {
     width: 100%;
-    
+  
     padding-top: 2.5vh;
     font-size: 3rem;
-    background-color: black;
+    color: white;
+    border-top: 1px solid lightgrey;
+    text-align: end;
 }
+
+.email-sign-up{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 25%;
+    text-align: center;
+}
+
+
+.email-sign-up-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.email-sign-up button {
+    width: 14rem;
+    height: 3rem;
+}
+
+.email-sign-up input {
+    width: 25rem;
+}
+
+footer nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.footer-nav-options {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+footer p {
+    font-size: 1.8rem;
+    padding-right: 5rem;
+}
+
+footer {
+    width: 100%;
+  
+    padding-top: 2.5vh;
+    font-size: 3rem;
+    color: white;
+    border-top: 1px solid lightgrey;
+    text-align: end;
+}
+
+.email-sign-up{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 25%;
+    text-align: center;
+}
+
+
+.email-sign-up-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.email-sign-up button {
+    width: 14rem;
+    height: 3rem;
+}
+
+.email-sign-up input {
+    width: 25rem;
+}
+
+footer nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.footer-nav-options {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+footer p {
+    font-size: 1.8rem;
+    padding-right: 5rem;
+}
+
 
 
 
