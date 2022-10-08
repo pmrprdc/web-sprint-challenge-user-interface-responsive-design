@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
-    font-size: 7.5rem;
+    font-size: 4.5rem;
     color: white;
 }
 
@@ -131,10 +131,7 @@ header nav div {
 
 }
 
- h1  {
-    color: white;
-    
-}
+
 
 
 
@@ -307,18 +304,73 @@ footer p {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    header .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header .wrapper h1 {
+        font-size: 4rem;
+    }
     .header-title {
         width: 75%;
         margin: 0 auto;
         text-align: center;
         font-size: 4rem;
+        border: 1rem solid green;
     }
 
     /* menu */
-    .menu {
+      .menu-container {
+        width: 100%;
+    }
+    menu {
         background-image: none;
     }
+    .menu-section {
+        width: 80%;
+    }
+    
 
+    .menu-item div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-wrapper{
+        color: black;
+        background-color: #E1EFE6;
+    }
+
+    .menu-wrapper h2 {
+        border-bottom: 1rem solid black;
+    }
+
+    .menu-wrapper h3 {
+        border: 0.5rem solid black;
+        align-self: center;
+        padding: 1rem 2rem;
+    }
+
+    .menu-item {
+        text-align: center;
+        padding: 1.5rem;
+        border-bottom: 0.5rem solid black;
+        
+    }
+
+    .menu-item p {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+   
+
+  
+
+    
+
+   
     /* footer section */
     footer {
         height: auto;
